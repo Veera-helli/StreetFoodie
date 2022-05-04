@@ -1,0 +1,41 @@
+header {
+    padding: 15px 0px;
+    font-size: 28px;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 70px;
+}
+
+#logo{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 26px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+#intro{
+    background: rgb(229, 235, 236) fixed no-repeat;
+    height: 100vh;
+}
+
+.btn{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.menuitem{
+    background: rgb(247, 247, 247);
+}
+
+.menuitem:hover{
+    background: rgb(255, 236, 130);
+}
+
+#locationSelectionMenu{
+    font-size: 20px;
+}

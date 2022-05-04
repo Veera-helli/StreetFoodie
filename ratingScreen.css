@@ -1,0 +1,59 @@
+.details{
+    font-size: 12px;
+}
+
+header {
+    padding: 15px 0px;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 70px;
+}
+
+#logo{
+    font-family: 'Kaushan Script';
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 26px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.form-check-label{
+    font-size: 20px;
+}
+
+#intro{
+    background: rgb(229, 235, 236) fixed no-repeat;
+    height: 100vh;
+}
+
+.btn{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.table-hover tbody tr:hover td{
+    background-color: rgb(255, 250, 229);
+}
+
+td{
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+tr{
+    padding: 0 5px;
+    border-top: rgb(254, 254, 185) 3px solid;
+    width: 50%;
+    background-color: rgb(255, 255, 250);
+    font-size: 20px;
+}

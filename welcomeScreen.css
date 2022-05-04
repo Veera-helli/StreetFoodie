@@ -1,0 +1,28 @@
+header {
+    padding: 15px 0px;
+    font-size: 28px;
+    color: black;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 70px;
+}
+
+#intro{
+    background: rgb(229, 235, 236) fixed no-repeat;
+    height: 100vh;
+}
+
+#welcomeScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    padding: 15px 50px;
+    font-size: 24px;
+}
+
+.title{
+    font-size: 40px;
+}
