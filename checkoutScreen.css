@@ -30,8 +30,7 @@ h2{
 }
 
 #intro{
-    background: rgb(229, 235, 236) fixed no-repeat;
-    height: 100vh;
+    background: rgba(255, 162, 0, 0.5);
 }
 
 .btn{
