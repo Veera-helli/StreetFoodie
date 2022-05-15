@@ -1,106 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="menuScreen.css" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="menuScreen.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan Script"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
     <title>Menu Screen</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="intro">
-
       <header class="fixed-top">
         <div class="container-fluid d-flex">
-          <a href="locationSelection.html"><i class="bi bi-arrow-left text-black"></i></a> 
-          <p id="logo" class="ms-5" style="font-family: 'Kaushan Script'; font-size: 36px;">Street Foodie</p>
+          <a href="locationSelection.html"
+            ><i class="bi bi-arrow-left text-black"></i
+          ></a>
+          <p
+            id="logo"
+            class="ms-5"
+            style="font-family: 'Kaushan Script'; font-size: 36px"
+          >
+            Street Foodie
+          </p>
         </div>
       </header>
 
-      <div style="height: 45px;"></div>
+      <div style="height: 45px"></div>
 
-      <div class="container" style="height: 130vh;">
+      <div class="container" style="height: 130vh">
         <svg class="bi" width="32" height="32" fill="black">
-          <use xlink:href="bootstrap-icons.svg#shop"/>
+          <use xlink:href="bootstrap-icons.svg#shop" />
         </svg>
-        <h1 style="padding: 0px 0px 4px 0px;">Select Items</h1>
+        <h1 style="padding: 0px 0px 4px 0px">Select Items</h1>
         <h2 class="">Finger food</h2>
         <table class="table table-hover">
           <thead></thead>
           <tbody class="rounded">
             <tr>
-              <td> <img src="purilaistausta.jpg" alt="burger" style="width: 6.5rem; height: 6.5rem;"></td>
+              <td>
+                <img
+                  src="purilaistausta.jpg"
+                  alt="burger"
+                  style="width: 6.5rem; height: 6.5rem"
+                />
+              </td>
               <td class="p-3">
-                  <div>
-                      <h3>French Fries</h2>
-                      <p class="details">Plain french fries with optional dip.</p>
-                      <div class="d-flex justify-content-between align-content-between">
-                        <i class="bi bi-question-circle-fill"></i>
-                        <h4 class="pe-1">3€</h4>
-                      </div>
+                <div>
+                  <h3>French Fries</h3>
+                  <p class="details">Plain french fries with optional dip.</p>
+                  <div
+                    class="d-flex justify-content-between align-content-between"
+                  >
+                    <i class="bi bi-question-circle-fill"></i>
+                    <h4 class="pe-1">3€</h4>
                   </div>
+                </div>
               </td>
             </tr>
             <tr>
-              <td> <img src="purilaistausta.jpg" alt="burger" style="width: 6.5rem; height: 6.5rem;"></td>
+              <td>
+                <img
+                  src="purilaistausta.jpg"
+                  alt="burger"
+                  style="width: 6.5rem; height: 6.5rem"
+                />
+              </td>
               <td class="p-3">
-                  <div>
-                      <h5 class="">Mozzarella sticks</h5>
-                      <p class="details">Crusted mozzarella with spicy dip</p>
-                      <div class="d-flex justify-content-between">
-                          <i class="bi bi-question-circle-fill"></i>
-                          <h4 class="pe-1">5€</h4>
-                      </div>
+                <div>
+                  <h5 class="">Mozzarella sticks</h5>
+                  <p class="details">Crusted mozzarella with spicy dip</p>
+                  <div class="d-flex justify-content-between">
+                    <i class="bi bi-question-circle-fill"></i>
+                    <h4 class="pe-1">5€</h4>
                   </div>
+                </div>
               </td>
             </tr>
           </tbody>
         </table>
 
         <h2 class="">Burgers</h2>
-        
+
         <table class="table table-hover">
           <tbody>
             <tr>
-              <td> <img src="purilaistausta.jpg" alt="burger" style="width: 6.5rem; height: 6.5rem;"></td>
+              <td>
+                <img
+                  src="purilaistausta.jpg"
+                  alt="burger"
+                  style="width: 6.5rem; height: 6.5rem"
+                />
+              </td>
               <td class="p-3">
-                  <div>
-                      <h5 class="">Cheese Burger</h5>
-                      <p class="details">Beef patty, salad, tomato, cheese</p>
-                      <div class="d-flex justify-content-between">
-                        <i class="bi bi-question-circle-fill"></i>
-                        <h4 class="pe-1">7€</h4>
-                      </div>
+                <div>
+                  <h5 class="">Cheese Burger</h5>
+                  <p class="details">Beef patty, salad, tomato, cheese</p>
+                  <div class="d-flex justify-content-between">
+                    <i class="bi bi-question-circle-fill"></i>
+                    <h4 class="pe-1">7€</h4>
                   </div>
+                </div>
               </td>
             </tr>
             <tr>
-              <td> <img src="purilaistausta.jpg" alt="burger" style="width: 6.5rem; height: 6.5rem;"></td>
+              <td>
+                <img
+                  src="purilaistausta.jpg"
+                  alt="burger"
+                  style="width: 6.5rem; height: 6.5rem"
+                />
+              </td>
               <td class="p-3">
-                  <div>
-                      <h5 class="">Vegan Burger</h5>
-                      <p class="details">Bean patty, tomato, salad vegan cheese and sauces!</p>
-                      <div class="d-flex justify-content-between">
-                          <i class="bi bi-question-circle-fill"></i>
-                          <h4 class="pe-1">6€</h4>
-                      </div>
+                <div>
+                  <h5 class="">Vegan Burger</h5>
+                  <p class="details">
+                    Bean patty, tomato, salad vegan cheese and sauces!
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <i class="bi bi-question-circle-fill"></i>
+                    <h4 class="pe-1">6€</h4>
                   </div>
+                </div>
               </td>
             </tr>
           </tbody>
         </table>
-        
+
         <a href="checkoutScreen2.html">
-          <div class="d-flex justify-content-center align-items-center m-4 mt-5 fixed-bottom">
-            <button type="submit" class="btn btn-danger">Continue to Checkout</button>
+          <div
+            class="d-flex justify-content-center align-items-center m-4 mt-5 fixed-bottom"
+          >
+            <button type="submit" class="btn btn-danger">
+              Continue to Checkout
+            </button>
           </div>
         </a>
-
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
