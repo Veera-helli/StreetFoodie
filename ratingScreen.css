@@ -45,6 +45,9 @@ h2 {
   background-color: rgb(255, 250, 229);
 }
 
+textarea {
+}
+
 td {
   padding: 5px 0;
   font-size: 20px;
